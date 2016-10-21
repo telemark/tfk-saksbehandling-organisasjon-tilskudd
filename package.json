@@ -40,6 +40,8 @@
     "tap": "7.1.2"
   },
   "dependencies": {
-    "seneca": "3.2.1"
+    "is-file": "1.0.0",
+    "seneca": "3.2.1",
+    "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.0.0"
   }
 }
