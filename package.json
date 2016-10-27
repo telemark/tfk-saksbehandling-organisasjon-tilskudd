@@ -42,6 +42,6 @@
   "dependencies": {
     "is-file": "1.0.0",
     "seneca": "3.2.2",
-    "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.0.0"
+    "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.0.1"
   }
 }
