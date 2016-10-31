@@ -4,13 +4,18 @@ const tap = require('tap')
 const replyTemplate = require('../../lib/choose-reply-template')
 const data = {}
 const dataFolkehelse = {
-  type: {
-    tiltak: 'Folkehelse'
+  formal: {
+    formal: 'Bidra til folkehelseaktiviteter'
   }
 }
 const dataKultur = {
-  type: {
-    tiltak: 'Kultur'
+  formal: {
+    formal: 'Bidra til kulturaktiviteter'
+  }
+}
+const dataIdrett = {
+  formal: {
+    formal: 'Bidra til idrettsaktiviteter'
   }
 }
 
@@ -21,3 +26,5 @@ tap.equal(replyTemplate(data), '', 'returns empty for empty')
 tap.equal(replyTemplate(dataFolkehelse), 'mottatt-folkehelse', 'returns mottatt-folkehelse for folkehelse')
 
 tap.equal(replyTemplate(dataKultur), 'mottatt-kultur', 'returns mottatt-kultur for kultur')
+
+tap.equal(replyTemplate(dataIdrett), 'mottatt-idrett', 'returns mottatt-idrett for idrett')
