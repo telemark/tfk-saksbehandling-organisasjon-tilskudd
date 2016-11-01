@@ -1,0 +1,89 @@
+{
+  "_id": "58186969b08909fb8f5fda5e",
+  "skjemaUtfyllingStop": 1477994857140,
+  "CALLBACK_STATUS_URL": "https://test.tilskudd.t-fk.no/api",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36",
+  "organisasjon": {
+    "stepName": "organisasjon",
+    "organisasjonsNummer": "9393485755985",
+    "organisasjonsNavn": "Palle Pils Firmaevents",
+    "kontoNummer": "932837474784",
+    "adresse": "Klosterbakken 89, 1742 Nonnestad",
+    "kommune": "Notodden",
+    "fylke": "Telemark",
+    "telefonNummer": "93834746463473",
+    "epost": "gg@gasodden.net"
+  },
+  "completedSteps": [
+    "organisasjon",
+    "kontaktperson",
+    "formal",
+    "tiltak",
+    "finanser",
+    "target",
+    "artform",
+    "kategorier",
+    "collaboration",
+    "partners",
+    "samarbeidsparter"
+  ],
+  "kontaktperson": {
+    "stepName": "kontaktperson",
+    "navn": "Geir Guttormsen",
+    "telefonNummer": "938347467446",
+    "epost": "gg@gasodden.net"
+  },
+  "formal": {
+    "stepName": "formal",
+    "formal": "Bidra til kulturaktiviteter"
+  },
+  "kategorieridrett": false,
+  "kategorierfolkehelse": false,
+  "tiltak": {
+    "stepName": "tiltak",
+    "navn": "Partyevents 4 ever",
+    "beskrivelse": "Et heidundrende arrangement hvro alle har det spass",
+    "hvor": "Hjemme i garasjen min",
+    "startdato": "2016-12-24",
+    "sluttdato": "2016-12-24",
+    "antall": "En dag"
+  },
+  "finanser": {
+    "stepName": "finanser",
+    "soknadsSum": "500000",
+    "totalRamme": "24000000",
+    "egneMidler": "0",
+    "andreMidler": "58000000"
+  },
+  "target": {
+    "stepName": "target",
+    "target": [
+      "Barn 0 - 12 år",
+      "Voksne"
+    ]
+  },
+  "artform": {
+    "stepName": "artform",
+    "artform": "Litteratur"
+  },
+  "kategorier": {
+    "stepName": "kategorier",
+    "kategorier": [
+      "Festival",
+      "Publikasjon"
+    ]
+  },
+  "collaboration": {
+    "stepName": "collaboration",
+    "samarbeid": "ja"
+  },
+  "partners": {
+    "stepName": "partners",
+    "partner": "private aktører"
+  },
+  "samarbeidsparter": {
+    "stepName": "samarbeidsparter",
+    "beskrivelse": "Gunnar Greis eventbyrå\r\nNille naps partyfikseri"
+  },
+  "timeStamp": 1477994857142
+}
