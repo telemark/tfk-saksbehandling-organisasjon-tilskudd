@@ -8,6 +8,7 @@ module.exports = (item, callback) => {
   const setupArchive = require('./lib/setup-archive')
   const generateDocuments = require('./lib/generate-documents')
   const encodeDocumentsArchive = require('./lib/encode-documents-to-archive')
+  const saveJobArchive = require('./lib/save-job-archive')
   const saveJobDistribution = require('./lib/save-job-distribution')
   const saveJobDone = require('./lib/save-job-done')
   const saveJobError = require('./lib/save-job-error')
@@ -41,6 +42,7 @@ module.exports = (item, callback) => {
     setupArchive,
     generateDocuments,
     encodeDocumentsArchive,
+    saveJobArchive,
     saveJobDistribution,
     saveJobDone,
     saveJobError,
