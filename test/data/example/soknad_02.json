@@ -1,0 +1,127 @@
+{
+  "_id": "581c69e3cefdf300072e30fb",
+  "skjemaUtfyllingStop": 1478257123631,
+  "CALLBACK_STATUS_URL": "https://test.tilskudd.t-fk.no/api",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36",
+  "dsfData": {
+    "NAVN": "FLIPP HALVO",
+    "NAVN-S": "FLIPP",
+    "NAVN-M": "",
+    "NAVN-F": "HALVO",
+    "ADR": "KONGLESTIEN 54",
+    "POSTN": "3727",
+    "POSTS": "SKIEN",
+    "GARD": "",
+    "KOMNR": "0806",
+    "BRUK": "",
+    "FODT": "123456",
+    "PERS": "78912",
+    "SPES-KD": "0"
+  },
+  "korData": {
+    "uid": "12345678912",
+    "logoutUrl": "https://selvbetjening.t-fk.no/logout"
+  },
+  "brregData": {
+    "forretningsadr": "co/ Gulset Nærmiljøsenter Nyhusvegen 14",
+    "forradrkommnr": "0806",
+    "forradrkommnavn": "SKIEN",
+    "forradrpostnr": "3726",
+    "forradrpoststed": "SKIEN",
+    "orgnr": "992209208",
+    "navn": "DER DU BOR - GRENLAND (DDB-G)",
+    "ppostnr": "3703",
+    "postadresse": "Postboks 1821",
+    "tlf": ""
+  },
+  "skjemaUtfyllingStart": 1478255883865,
+  "validatedContactInfo": true,
+  "organisasjon": {
+    "stepName": "organisasjon",
+    "organisasjonsNummer": "994922106",
+    "kontoNummer": "12345678912",
+    "organisasjonsNavn": "DER DU BOR - GRENLAND (DDB-G)",
+    "adresse": "co/ Gulset Nærmiljøsenter Nyhusvegen 14, 3726 SKIEN",
+    "telefonNummer": "",
+    "epost": ""
+  },
+  "kontaktperson": {
+    "navn": "FLIPP HALVOR"
+  },
+  "completedSteps": [
+    "organisasjon",
+    "formal",
+    "artform",
+    "kategorier",
+    "target",
+    "tiltak",
+    "finanser",
+    "collaboration",
+    "partners",
+    "samarbeidsparter",
+    "bidrag"
+  ],
+  "formal": {
+    "stepName": "formal",
+    "formal": "Tilskudd til arrangementer og tiltak innen kultur og idrett"
+  },
+  "artform": {
+    "stepName": "artform",
+    "artform": "Musikk"
+  },
+  "kategorier": {
+    "stepName": "kategorier",
+    "beskrivelse": [
+      "Konsert",
+      "Seminar/workshop"
+    ]
+  },
+  "target": {
+    "stepName": "target",
+    "target": [
+      "Ungdom 12 - 25 år",
+      "Eldre"
+    ]
+  },
+  "tiltak": {
+    "stepName": "tiltak",
+    "navn": "test",
+    "beskrivelse": "test",
+    "hvor": "test",
+    "startdato": "2015-01-01",
+    "sluttdato": "2019-10-31",
+    "antall": "Flere dager"
+  },
+  "finanser": {
+    "stepName": "finanser",
+    "soknadsSum": "1250000",
+    "totalRamme": "500",
+    "egneMidler": "90000",
+    "andreMidler": "500003"
+  },
+  "collaboration": {
+    "stepName": "collaboration",
+    "samarbeid": "ja"
+  },
+  "partners": {
+    "stepName": "partners",
+    "partner": [
+      "private aktører",
+      "frivillige aktører"
+    ]
+  },
+  "samarbeidsparter": {
+    "stepName": "samarbeidsparter",
+    "beskrivelse": "titten"
+  },
+  "bidrag": {
+    "stepName": "bidrag",
+    "bidrag": [
+      "Midler",
+      "Utstyr",
+      "Lokaler",
+      "Frivillighet eller frivillig arbeid"
+    ]
+  },
+  "timeStamp": 1478257123634
+}

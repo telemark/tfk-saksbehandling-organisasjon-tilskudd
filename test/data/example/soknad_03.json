@@ -1,0 +1,106 @@
+{
+  "_id": "581c888ecefdf300072e30fc",
+  "skjemaUtfyllingStop": 1478264974160,
+  "CALLBACK_STATUS_URL": "https://test.tilskudd.t-fk.no/api",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14",
+  "dsfData": {
+    "NAVN": "PALMER SALA",
+    "NAVN-S": "PALMER",
+    "NAVN-M": "",
+    "NAVN-F": "SALA",
+    "ADR": "ANDEDAMMEN 23",
+    "POSTN": "3911",
+    "POSTS": "PORSGRUNN",
+    "GARD": "",
+    "KOMNR": "0805",
+    "BRUK": "",
+    "FODT": "123456",
+    "PERS": "78912",
+    "SPES-KD": "0"
+  },
+  "korData": {
+    "Email": "sala.palmer@icloud.com",
+    "MobilePhone": "12345678",
+    "uid": "12345678912",
+    "logoutUrl": "https://selvbetjening.t-fk.no/logout"
+  },
+  "brregData": {
+    "forretningsadr": "",
+    "forradrkommnr": "",
+    "forradrkommnavn": "",
+    "forradrpostnr": "",
+    "forradrpoststed": "",
+    "orgnr": "",
+    "navn": "",
+    "ppostnr": "",
+    "postadresse": "",
+    "tlf": ""
+  },
+  "skjemaUtfyllingStart": 1478264337828,
+  "validatedContactInfo": true,
+  "organisasjon": {
+    "stepName": "organisasjon",
+    "organisasjonsNummer": "884697662",
+    "kontoNummer": "12345678912",
+    "organisasjonsNavn": "HLF Telemark",
+    "adresse": "Borgestadbakken 2, 3712 Skien  ",
+    "telefonNummer": "12345678",
+    "epost": "hlf.tele@gmail.com"
+  },
+  "kontaktperson": {
+    "stepName": "kontaktperson",
+    "navn": "PALMER SALA",
+    "telefonNummer": "12345678",
+    "epost": "sala.palmer@icloud.com"
+  },
+  "completedSteps": [
+    "organisasjon",
+    "kontaktperson",
+    "formal",
+    "kategorier",
+    "target",
+    "tiltak",
+    "finanser",
+    "collaboration"
+  ],
+  "formal": {
+    "stepName": "formal",
+    "formal": "Tilskudd til frivillige organisasjoner til folkehelsearbeid"
+  },
+  "artform": false,
+  "kategorier": {
+    "stepName": "kategorier",
+    "beskrivelse": "Annet folkehelsearbeid"
+  },
+  "target": {
+    "stepName": "target",
+    "target": [
+      "Ungdom 12 - 25 år",
+      "Voksne"
+    ]
+  },
+  "tiltak": {
+    "stepName": "tiltak",
+    "navn": "Hvert øre teller",
+    "beskrivelse": "Stand for å opplyse om forebygging av hørselskader. Dele ut ørepropper. Hørseltesting. ",
+    "hvor": "Seljord",
+    "startdato": "9. september",
+    "sluttdato": "11. september",
+    "antall": "Flere dager"
+  },
+  "finanser": {
+    "stepName": "finanser",
+    "soknadsSum": "20000",
+    "totalRamme": "30000",
+    "egneMidler": "10000",
+    "andreMidler": ""
+  },
+  "collaboration": {
+    "stepName": "collaboration",
+    "samarbeid": "nei"
+  },
+  "partners": false,
+  "samarbeidsparter": false,
+  "bidrag": false,
+  "timeStamp": 1478264974163
+}
