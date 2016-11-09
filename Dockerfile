@@ -4,13 +4,16 @@
 #
 ###########################################################
 
-# Setting the base to docker-node-unoconv
-FROM zrrrzzt/docker-node-unoconv
+# Setting the base to nodejs 4.6.2
+FROM mhart/alpine-node:4.6.2
 
 # Maintainer
 MAINTAINER Geir Gåsodden
 
 #### Begin setup ####
+
+# Installs git
+RUN apk add --update git && rm -rf /var/cache/apk/*
 
 # Bundle app source
 COPY . /src
@@ -22,4 +25,4 @@ WORKDIR "/src"
 RUN npm install --production
 
 # Startup
-ENTRYPOINT /usr/bin/unoconv --listener --server=0.0.0.0 --port=2002 && node index.js
+ENTRYPOINT node example.js
