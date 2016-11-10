@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-organisasjon-tilskudd",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Saksbehandlermodul for tilskudd",
   "license": "MIT",
   "author": {
@@ -43,7 +43,7 @@
   "dependencies": {
     "is-file": "1.0.0",
     "mississippi": "1.2.0",
-    "tfk-dsf-normalize-contact": "1.0.2",
+    "tfk-dsf-normalize-contact": "2.0.0",
     "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.0.5",
     "tfk-template-to-pdf": "2.0.3",
     "uuid": "2.0.3"
