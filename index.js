@@ -51,7 +51,7 @@ module.exports = (item, callback) => {
     saveJobDone,
     saveJobError,
     cleanupDocuments,
-    cleanupJob,
+    // cleanupJob,
     finished
   )
 }
