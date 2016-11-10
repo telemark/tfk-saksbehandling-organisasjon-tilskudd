@@ -4,6 +4,7 @@ module.exports = (item, callback) => {
   const miss = require('mississippi')
   const getNextJob = require('./lib/get-next-job')
   const setupItem = require('./lib/setup-item')
+  const setupDistribution = require('./lib/setup-distribution')
   const setupTemplates = require('./lib/setup-templates')
   const setupArchive = require('./lib/setup-archive')
   const generateDocuments = require('./lib/generate-documents')
@@ -38,6 +39,7 @@ module.exports = (item, callback) => {
     starter,
     getNextJob,
     setupItem,
+    setupDistribution,
     setupTemplates,
     setupArchive,
     generateDocuments,
