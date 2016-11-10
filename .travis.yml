@@ -3,3 +3,4 @@ node_js:
   - "4"
 after_success:
   - npm run coveralls
+  - curl --data build=true -X POST https://registry.hub.docker.com/u/telemark/tfk-saksbehandling-organisasjon-tilskudd/trigger/1f0abfe5-b6c1-4ba5-b184-2533135cb87e/
