@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-organisasjon-tilskudd",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Saksbehandlermodul for tilskudd",
   "license": "MIT",
   "author": {
@@ -18,7 +18,6 @@
     "coverage": "tap test/**/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "start": "node index.js",
-    "setup": "npm install && node setup.js",
     "standard-fix": "standard --fix"
   },
   "keywords": [
