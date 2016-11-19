@@ -45,7 +45,7 @@
     "tfk-dsf-normalize-contact": "2.0.2",
     "tfk-saksbehandling-get-saksnummer": "1.0.0",
     "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.0.6",
-    "tfk-template-to-pdf": "2.0.3",
+    "tfk-template-to-pdf": "2.0.4",
     "uuid": "2.0.3"
   }
 }
