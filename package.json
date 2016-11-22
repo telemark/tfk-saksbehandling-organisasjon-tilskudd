@@ -43,7 +43,7 @@
     "is-file": "1.0.0",
     "mississippi": "1.2.0",
     "tfk-dsf-normalize-contact": "2.0.2",
-    "tfk-saksbehandling-get-saksnummer": "1.0.0",
+    "tfk-saksbehandling-get-saksnummer": "1.1.0",
     "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.0.7",
     "tfk-template-to-pdf": "2.0.4",
     "uuid": "3.0.0"
