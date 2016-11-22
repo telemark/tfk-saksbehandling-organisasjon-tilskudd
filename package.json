@@ -1,8 +1,9 @@
 {
   "name": "tfk-saksbehandling-organisasjon-tilskudd",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Saksbehandlermodul for tilskudd",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
