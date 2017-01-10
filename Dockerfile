@@ -5,7 +5,7 @@
 ###########################################################
 
 # Setting the base to nodejs 6.9.3
-FROM mhart/alpine-node:6.9.3
+FROM node:6.9.3-alpine
 
 # Maintainer
 MAINTAINER Geir Gåsodden
