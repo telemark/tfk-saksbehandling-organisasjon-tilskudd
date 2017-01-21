@@ -48,7 +48,7 @@
     "lodash.escape": "4.0.1",
     "mississippi": "1.3.0",
     "tfk-dsf-normalize-contact": "2.0.2",
-    "tfk-generate-unique-filename": "1.0.1",
+    "tfk-generate-unique-filename": "1.0.2",
     "tfk-saksbehandling-get-saksnummer": "1.1.11",
     "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.1.8",
     "tfk-template-to-pdf": "2.0.6"
