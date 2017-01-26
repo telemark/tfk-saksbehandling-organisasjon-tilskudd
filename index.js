@@ -16,6 +16,7 @@ module.exports = (item, callback) => {
   const saveJobError = require('./lib/save-job-error')
   const cleanupDocuments = require('./lib/cleanup-documents')
   const cleanupJob = require('./lib/cleanup-job')
+  const updateStats = require('./lib/update-stats')
   const starter = fromString(JSON.stringify(item))
 
   function fromString (string) {
@@ -52,6 +53,7 @@ module.exports = (item, callback) => {
     saveJobError,
     cleanupDocuments,
     cleanupJob,
+    updateStats,
     finished
   )
 }
