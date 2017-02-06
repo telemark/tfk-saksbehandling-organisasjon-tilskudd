@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-organisasjon-tilskudd",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Saksbehandlermodul for tilskudd",
   "license": "MIT",
   "private": true,
