@@ -9,7 +9,7 @@ module.exports = {
   DONE_DIRECTORY_PATH: process.env.TFK_SOT_DONE_DIRECTORY_PATH || 'test/data/done',
   ERROR_DIRECTORY_PATH: process.env.TFK_SOT_ERROR_DIRECTORY_PATH || 'test/data/errors',
   PDF_SERVICE_URL: process.env.TFK_SOT_PDF_SERVICE_URL || 'https://pdftemplater.service.t-fk.no',
-  fireBase: {
-    databaseURL: process.env.FIREBASE_URL || 'https://seneca-firebase-test.firebaseio.com'
-  }
+  PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'tilskudd',
+  PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
+  PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345
 }
