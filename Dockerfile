@@ -1,11 +1,5 @@
-###########################################################
-#
-# Dockerfile for tfk-saksbehandling-organisasjon-tilskudd
-#
-###########################################################
-
-# Setting the base to nodejs 6.9.4
-FROM node:6.9.4-alpine
+# Setting the base to nodejs 8.4.0
+FROM node:8.4.0-alpine
 
 # Maintainer
 MAINTAINER Geir Gåsodden
