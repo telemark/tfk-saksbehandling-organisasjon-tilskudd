@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-organisasjon-tilskudd",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Saksbehandlermodul for tilskudd",
   "license": "MIT",
   "private": true,
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=8.4.0"
+    "node": ">=8.5.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -35,9 +35,6 @@
     "url": "https://github.com/telemark/tfk-saksbehandling-organisasjon-tilskudd/issues"
   },
   "homepage": "https://github.com/telemark/tfk-saksbehandling-organisasjon-tilskudd",
-  "greenkeeper": {
-    "emails": false
-  },
   "devDependencies": {
     "coveralls": "2.13.1",
     "nsp": "2.8.0",
