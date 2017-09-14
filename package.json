@@ -52,7 +52,7 @@
     "tfk-generate-unique-filename": "1.0.8",
     "tfk-saksbehandling-get-saksnummer": "1.2.0",
     "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.1.14",
-    "tfk-template-to-pdf": "2.0.9",
+    "tfk-template-to-pdf": "3.0.0",
     "winston": "2.3.1",
     "winston-papertrail": "1.0.5"
   }
