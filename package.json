@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-organisasjon-tilskudd",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "Saksbehandlermodul for tilskudd",
   "license": "MIT",
   "private": true,
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=8.6.0"
+    "node": ">=8.7.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -29,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/telemark/tfk-saksbehandling-organisasjon-tilskudd.git"
+    "url": "git+https://github.com/telemark/tfk-saksbehandling-organisasjon-tilskudd.git"
   },
   "bugs": {
     "url": "https://github.com/telemark/tfk-saksbehandling-organisasjon-tilskudd/issues"
@@ -50,7 +50,7 @@
     "tfk-saksbehandling-get-saksnummer": "1.2.0",
     "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.2.1",
     "tfk-template-to-pdf": "3.0.0",
-    "winston": "3.0.0-rc0",
+    "winston": "2.4.0",
     "winston-papertrail": "1.0.5"
   }
 }
