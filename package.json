@@ -51,7 +51,7 @@
     "tfk-saksbehandling-get-saksnummer": "1.2.4",
     "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.2.2",
     "tfk-template-to-pdf": "3.0.0",
-    "winston": "2.4.3",
+    "winston": "2.4.4",
     "winston-papertrail": "1.0.5"
   }
 }
