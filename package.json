@@ -49,7 +49,7 @@
     "tfk-dsf-normalize-contact": "2.3.0",
     "tfk-generate-unique-filename": "2.0.0",
     "tfk-saksbehandling-get-saksnummer": "1.2.4",
-    "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.2.2",
+    "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.2.3",
     "tfk-template-to-pdf": "3.0.0",
     "winston": "2.4.4",
     "winston-papertrail": "1.0.5"
