@@ -33,7 +33,7 @@ module.exports = (item, callback) => {
     if (error) {
       callback(error, null)
     } else {
-      callback(null, {message: 'Success'})
+      callback(null, { message: 'Success' })
     }
   }
   miss.pipe(
