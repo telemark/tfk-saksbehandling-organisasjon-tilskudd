@@ -1,10 +1,18 @@
-FROM mhart/alpine-node:10 as base
-COPY package.json package-lock.json /usr/src/
-WORKDIR /usr/src
-RUN npm i --production
-COPY . .
+FROM mhart/alpine-node:10
 
-FROM mhart/alpine-node:base-10
+#### Begin setup ####
+
+# Installs git
+RUN apk add --update git && rm -rf /var/cache/apk/*
+
+# Bundle app source
+COPY . /usr/src
+
+# Change working directory
 WORKDIR /usr/src
-COPY --from=base /usr/src .
-CMD ["node", "example.js"]
+
+# Install dependencies
+RUN npm install --production
+
+# Startup
+ENTRYPOINT node example.js
