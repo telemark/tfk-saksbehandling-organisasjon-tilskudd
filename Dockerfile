@@ -1,7 +1,6 @@
-
 FROM mhart/alpine-node:10 as base
-WORKDIR /usr/src
 COPY package.json package-lock.json /usr/src/
+WORKDIR /usr/src
 RUN npm i --production
 COPY . .
 
