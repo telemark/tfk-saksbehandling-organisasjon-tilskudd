@@ -6,10 +6,10 @@ FROM mhart/alpine-node:10
 RUN apk add --update git && rm -rf /var/cache/apk/*
 
 # Bundle app source
-COPY . /usr/src
+COPY . /src
 
 # Change working directory
-WORKDIR /usr/src
+WORKDIR /src
 
 # Install dependencies
 RUN npm install --production
