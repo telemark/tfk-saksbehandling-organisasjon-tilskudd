@@ -48,7 +48,7 @@
     "tfk-dsf-normalize-contact": "3.0.0",
     "tfk-generate-unique-filename": "2.0.1",
     "tfk-saksbehandling-get-saksnummer": "1.2.6",
-    "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.2.3",
+    "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.2.4",
     "tfk-template-to-pdf": "3.0.1",
     "winston": "2.4.4",
     "winston-papertrail": "1.0.5"
