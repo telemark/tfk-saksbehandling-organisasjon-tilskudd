@@ -44,7 +44,7 @@
   "dependencies": {
     "is-file": "1.0.0",
     "lodash.escape": "4.0.1",
-    "mississippi": "3.0.0",
+    "mississippi": "4.0.0",
     "tfk-dsf-normalize-contact": "3.0.0",
     "tfk-generate-unique-filename": "2.0.1",
     "tfk-saksbehandling-get-saksnummer": "1.2.6",
