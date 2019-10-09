@@ -47,7 +47,7 @@
     "mississippi": "4.0.0",
     "tfk-dsf-normalize-contact": "3.1.0",
     "tfk-generate-unique-filename": "2.0.1",
-    "tfk-saksbehandling-get-saksnummer": "1.2.7",
+    "tfk-saksbehandling-get-saksnummer": "1.2.8",
     "tfk-saksbehandling-organisasjon-tilskudd-templates": "1.2.4",
     "tfk-template-to-pdf": "3.0.1",
     "winston": "2.4.4",
